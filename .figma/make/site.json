@@ -1,0 +1,10 @@
+{
+  "description": "Create engaging animations for segmented controls with customizable parameters, enhancing user interface design for developers and designers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
