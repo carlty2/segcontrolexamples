@@ -1,20 +1,16 @@
-# Segmented control animation examples
+# Segmented control examples
 
-Recreated from the Figma Make file "Create segmented control animation".
+Everything related to the segmented control design lives here. Each source (a Figma import, an exported demo, specs, prototypes) gets its own top-level folder, so new material can be added without touching the others.
 
-A React + Vite + Tailwind CSS v4 playground comparing segmented control
-selection animations (none, colour fade, slide, scale-fill variants) across
-sizes, emphasis levels, icon/text variants and widths.
+| Folder | What it is |
+| --- | --- |
+| [`figma-import/`](figma-import) | The original Figma Make import "Create segmented control animation": a React + Vite + Tailwind playground comparing selection animations. See its README to run it. |
+| [`html-demo/`](html-demo) | A self-contained HTML demo board (Baseline and Center Fill 2 Default / Playful variants, in-context examples, spec sheets). Download the file and open it in a browser. |
 
-## Run
+## Run the Figma import
 
 ```sh
+cd figma-import
 pnpm install
 pnpm dev      # http://localhost:8443
-pnpm build
 ```
-
-- `src/App.tsx` – segmented control component and all animation examples
-- `src/index.css` – Tailwind import and animation keyframes
-- `src/imports/Frame15296` – original Figma frame import (reference, not used by the app)
-- `.figma/make` – Figma Make tooling; `site.json` is read by `vite.config.ts`
